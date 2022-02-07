@@ -1,0 +1,21 @@
+              precision    recall  f1-score   support
+
+         1.0       0.84      0.85      0.85      5126
+         2.0       0.82      0.82      0.82      4393
+
+    accuracy                           0.83      9519
+   macro avg       0.83      0.83      0.83      9519
+weighted avg       0.83      0.83      0.83      9519
+
+----------------------
+Tempo por fold para processar melhor parametro:
+Fold 1 time: 0:07:17.781590
+Fold 2 time: 0:19:13.949712
+Fold 3 time: 0:05:03.144133
+Fold 4 time: 0:11:50.717404
+Fold 5 time: 0:24:41.813869
+----------------------
+Tempo para o metodo processar com os melhores parametros: 
+35.73867440223694
+----------------------
+Best params:  {'min_samples_split': 0.002301346822703938, 'max_features': 0.20345687317766822, 'num_arvores': 43}
